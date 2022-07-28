@@ -33,7 +33,7 @@ app.get("/aboutus",(req,res)=>{
     
 });
 
-    app.get("/",(req,res)=>
+    app.get("/login",(req,res)=>
     {
         res.send(
             "<form>"
